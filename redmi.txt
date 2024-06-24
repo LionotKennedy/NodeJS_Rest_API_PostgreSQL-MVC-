@@ -1,0 +1,19 @@
+CREATE TABLE users (
+  UserID SERIAL PRIMARY KEY,
+  UserName VARCHAR(255) DEFAULT NULL,
+  Password VARCHAR(255) DEFAULT NULL,
+  Email VARCHAR(255) DEFAULT NULL,
+  Image VARCHAR(255) DEFAULT NULL
+);
+
+first of all 
+
+-npm init -yes
+
+-npm install pg express body-parser
+
+-npm install -D nodemon
+
+-npm install express-validator
+
+-npm install multer
